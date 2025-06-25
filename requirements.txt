@@ -1,0 +1,12 @@
+openai
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+pypdf
+duckduckgo-search
+elevenlabs
+pyaudio
+python-dotenv
+streamlit
+urllib3==1.26.6 
