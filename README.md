@@ -2,6 +2,9 @@
 
 **A voice-enabled Retrieval-Augmented Generation (RAG) system combining Gemini API, Hugging Face, Faiss, and ElevenLabs to deliver accurate, responsive, and human-like query answering via an elegant Streamlit interface.**
 
+## Screenshots
+
+![App Screenshot](https://github.com/roanek123/FashX--Multi-Agent-Fashion-Recommendation-using-AI-and-Knwledge-Base/blob/main/GRADIO%20PAGE.png)
 ---
 
 ## 🚀 Features
@@ -35,7 +38,7 @@
 
 | Component         | Technology Used         |
 |------------------|-------------------------|
-| LLM Inference    | Google Gemini 1.5 Pro   |
+| LLM Inference    | Google Gemini 1.5 Pro, Msitral-Devstral  |
 | Embeddings       | Hugging Face Transformers |
 | Vector Store     | Faiss                   |
 | Fallback Search  | DuckDuckGo Instant API  |
@@ -57,12 +60,17 @@
    ```bash
    pip install -r requirements.txt
    ```
+3. **Install MPV (For Eleven labs text-to-speech)**
+   ```bash
+   install mpv from the website(https://mpv.io/installation/) and put the folder path in system varaibles PATH.
+   ```
 
-3. **Set Environment Variables**
+4. **Set Environment Variables**
    - `GEMINI_API_KEY`
    - `ELEVENLABS_API_KEY`
+OR Hardcode the API_KEYS in your code.
 
-4. **Run the App**
+5. **Run the App**
    ```bash
    streamlit run app.py
    ```
@@ -76,11 +84,7 @@ queryflow-ai/
 │
 ├── app.py                    # Streamlit frontend logic
 ├── retriever.py              # Embedding + Faiss vector store logic
-├── generator.py              # Gemini inference wrapper
-├── tts.py                    # ElevenLabs TTS integration
-├── utils.py                  # Helper functions
-├── data/                     # Document storage
-├── .env                      # API keys and secrets
+├── .env                      # API keys, secrets 
 └── requirements.txt
 ```
 
@@ -88,19 +92,9 @@ queryflow-ai/
 
 ## 📌 Future Improvements
 
-- Add PDF/document ingestion pipeline
+- Add other document ingestion pipeline
 - Add multilingual support for queries and TTS
 - Enable real-time microphone input for voice-based querying
-
----
-
-## 🧑‍💻 Author
-
-**Roanek Jena**  
-B.Tech CSE | AI & Systems Enthusiast  
-[LinkedIn](https://www.linkedin.com/in/roanekjena/) | [GitHub](https://github.com/yourusername)
-
----
 
 ## 📜 License
 
