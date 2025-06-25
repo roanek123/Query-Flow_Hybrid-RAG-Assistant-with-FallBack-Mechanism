@@ -4,7 +4,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://github.com/roanek123/FashX--Multi-Agent-Fashion-Recommendation-using-AI-and-Knwledge-Base/blob/main/GRADIO%20PAGE.png)
+![App Screenshot](https://github.com/roanek123/Query-Flow_Hybrid-RAG-Assistant-with-FallBack-Mechanism/blob/main/Screenshot%202025-06-25%20173520.png?raw=true)
 ---
 
 ## 🚀 Features
