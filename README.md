@@ -1,4 +1,4 @@
-# QueryFlow AI – Hybrid RAG Assistant
+# QueryFlow – Hybrid RAG Assistant
 
 **A voice-enabled Retrieval-Augmented Generation (RAG) system combining Gemini API, Hugging Face, Faiss, and ElevenLabs to deliver accurate, responsive, and human-like query answering via an elegant Streamlit interface.**
 
@@ -28,9 +28,9 @@
 
 ## 📊 Performance
 
-- ✅ Achieved **91% query resolution accuracy** on a benchmark set of 100 diverse questions.
-- 🌐 Improved **out-of-domain query handling by 18%** using DuckDuckGo as fallback.
-- 🔊 Reduced average response-to-audio latency to under **2.3 seconds**.
+- ✅ Achieved **91% query resolution accuracy** on a benchmark set of 20 diverse questions.
+- 🌐 Improved **out-of-domain query handling** using DuckDuckGo as fallback.
+- 🔊 Reduced average response-to-audio latency to under **5 seconds**.
 
 ---
 
