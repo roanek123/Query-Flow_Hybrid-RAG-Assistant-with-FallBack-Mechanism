@@ -68,6 +68,7 @@
 4. **Set Environment Variables**
    - `GEMINI_API_KEY`
    - `ELEVENLABS_API_KEY`
+     
 OR Hardcode the API_KEYS in your code.
 
 5. **Run the App**
